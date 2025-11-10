@@ -57,8 +57,7 @@ Qualquer desvio resulta em **reprovação**, com motivo detalhado.
 
 ```bash
 git clone https://github.com/seu-usuario/prototipo-automacao-pecacerta.git
-cd prototipo-automacao-pecacerta
-python sistema.py
+cd gestao_qualidade.py
 
 Depois, navegue pelo menu interativo (opções 0 a 5).
 
