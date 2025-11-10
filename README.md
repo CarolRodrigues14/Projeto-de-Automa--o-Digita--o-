@@ -56,7 +56,7 @@ Qualquer desvio resulta em **reprovação**, com motivo detalhado.
 ### ▶️ Passo a Passo
 
 ```bash
-git clone https://github.com/seu-usuario/prototipo-automacao-pecacerta.git
+git clone https://github.com/CarolRodrigues14/Projeto-de-Automa--o-Digita--o-
 cd gestao_qualidade.py
 
 Depois, navegue pelo menu interativo (opções 0 a 5).
@@ -140,39 +140,40 @@ sistema.py
     └── main()
 
 🧠 Lógica e Boas Práticas
+
 🧱 Estruturas de Dados
 
-Listas: Armazenamento de peças e caixas
+   Listas: Armazenamento de peças e caixas
 
-Dicionários: Representação de cada peça
+   Dicionários: Representação de cada peça
 
-Tuplas: Retorno de múltiplos valores (status, motivo)
+   Tuplas: Retorno de múltiplos valores (status, motivo)
 
 🔁 Estruturas de Controle
 
-Condicionais (if/elif/else): Validação de critérios
+   Condicionais (if/elif/else): Validação de critérios
 
-Laços (for): Iteração sobre listas
+   Laços (for): Iteração sobre listas
 
-Match/Case: Menu interativo moderno (Python 3.10+)
+   Match/Case: Menu interativo moderno (Python 3.10+)
 
 🧩 Funções e Organização
 
-Modularização: Cada função tem uma tarefa específica
+   Modularização: Cada função tem uma tarefa específica
 
-Type Hints: Facilita leitura e manutenção
+   Type Hints: Facilita leitura e manutenção
 
-Docstrings: Documentação inline de cada função
+   Docstrings: Documentação inline de cada função
 
 💡 Boas Práticas
 
-✅ Constantes centralizadas
+   ✅ Constantes centralizadas
 
-✅ Validação de entrada e tratamento de exceções
+   ✅ Validação de entrada e tratamento de exceções
 
-✅ Cores ANSI para feedback visual
+   ✅ Cores ANSI para feedback visual
 
-✅ Interface limpa e intuitiva
+   ✅ Interface limpa e intuitiva
 
 🎨 Melhorias Implementadas (Versão 2.0)
 💻 Interface
@@ -245,28 +246,3 @@ UniFECAF + Rocketseat
 📚 Disciplina
 
 Algoritmos e Lógica de Programação
-
-📄 Licença
-
-Projeto desenvolvido para fins educacionais como parte do curso de Graduação Tecnológica em Inteligência Artificial e Automação Digital.
-
-🤝 Contribuições
-
-Sugestões e melhorias são bem-vindas!
-
-Faça um Fork do projeto
-
-Crie uma branch (git checkout -b feature/MinhaFeature)
-
-Commit suas mudanças (git commit -m 'Adiciona MinhaFeature')
-
-Push para a branch (git push origin feature/MinhaFeature)
-
-Abra um Pull Request
-
-📞 Contato
-
-Para dúvidas ou sugestões, entre em contato através do repositório GitHub.
-
-🏭 Protótipo de Automação Digital — Empresa Fictícia PeçaCerta
-"De manual para automático: assim transformamos a produção."
