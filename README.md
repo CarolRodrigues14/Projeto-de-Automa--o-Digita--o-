@@ -59,3 +59,215 @@ Qualquer desvio resulta em **reprovação**, com motivo detalhado.
 git clone https://github.com/seu-usuario/prototipo-automacao-pecacerta.git
 cd prototipo-automacao-pecacerta
 python sistema.py
+
+Depois, navegue pelo menu interativo (opções 0 a 5).
+
+💻 Exemplos de Uso
+Exemplo 1 – Cadastro de Peça Aprovada
+
+📦 CADASTRO DE NOVA PEÇA
+Digite o peso da peça (em gramas): 100
+Digite o comprimento da peça (em cm): 15
+Digite a cor da peça (azul ou verde): azul
+
+✅ Peça #1 APROVADA e armazenada na caixa atual.
+   Ocupação da caixa: 1/10
+
+Exemplo 2 – Cadastro de Peça Reprovada
+
+📦 CADASTRO DE NOVA PEÇA
+Digite o peso da peça (em gramas): 110
+Digite o comprimento da peça (em cm): 12
+Digite a cor da peça (azul ou verde): vermelho
+
+❌ Peça #2 REPROVADA
+   Motivo: Peso fora do padrão (95-105g) | Cor inválida (aceitas: azul, verde)
+
+Exemplo 3 – Fechamento Automático de Caixa
+
+✅ Peça #10 APROVADA e armazenada na caixa atual.
+   Ocupação da caixa: 10/10
+
+🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁
+Caixa #1 fechada com 10 peças!
+🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁🎁
+
+Exemplo 4 – Relatório Final
+
+📊 RELATÓRIO FINAL DE PRODUÇÃO
+
+RESUMO GERAL DA PRODUÇÃO
+──────────────────────────────────────────────────
+Total de peças processadas: 25
+Peças aprovadas: 20 (80.0%)
+Peças reprovadas: 5 (20.0%)
+
+ARMAZENAMENTO
+──────────────────────────────────────────────────
+Caixas fechadas: 2
+Peças na caixa atual: 0/10
+
+ANÁLISE DE REJEIÇÕES
+──────────────────────────────────────────────────
+• Peso fora do padrão (95-105g): 3 peça(s)
+• Cor inválida (aceitas: azul, verde): 2 peça(s)
+
+ESTATÍSTICAS DE PEÇAS APROVADAS
+──────────────────────────────────────────────────
+Peso médio: 99.85g
+Comprimento médio: 14.32cm
+Distribuição de cores:
+  • Azul: 12 peça(s)
+  • Verde: 8 peça(s)
+
+🏗️ Estrutura do Código
+
+sistema.py
+├── Importações e Configurações
+├── Constantes de Qualidade
+├── Variáveis Globais
+├── Funções Utilitárias
+│   ├── limpa_tela()
+│   └── exibir_cabecalho()
+├── Funções de Negócio
+│   ├── avaliar_peca()
+│   ├── fechar_caixa_atual()
+│   ├── cadastrar_peca()
+│   ├── listar_pecas()
+│   ├── remover_peca()
+│   ├── listar_caixas()
+│   └── gerar_relatorio()
+└── Função Principal
+    └── main()
+
+🧠 Lógica e Boas Práticas
+🧱 Estruturas de Dados
+
+Listas: Armazenamento de peças e caixas
+
+Dicionários: Representação de cada peça
+
+Tuplas: Retorno de múltiplos valores (status, motivo)
+
+🔁 Estruturas de Controle
+
+Condicionais (if/elif/else): Validação de critérios
+
+Laços (for): Iteração sobre listas
+
+Match/Case: Menu interativo moderno (Python 3.10+)
+
+🧩 Funções e Organização
+
+Modularização: Cada função tem uma tarefa específica
+
+Type Hints: Facilita leitura e manutenção
+
+Docstrings: Documentação inline de cada função
+
+💡 Boas Práticas
+
+✅ Constantes centralizadas
+
+✅ Validação de entrada e tratamento de exceções
+
+✅ Cores ANSI para feedback visual
+
+✅ Interface limpa e intuitiva
+
+🎨 Melhorias Implementadas (Versão 2.0)
+💻 Interface
+
+🎨 Emojis para visualização agradável
+
+📊 Estatísticas detalhadas no relatório
+
+🎯 Feedback visual aprimorado
+
+⚙️ Funcionalidades
+
+📈 Percentuais de aprovação e reprovação
+
+📏 Médias de peso e comprimento
+
+🔍 Análise de motivos de rejeição
+
+ℹ️ Exibição da caixa em andamento
+
+🧱 Código
+
+🏗️ Type hints
+
+🔧 Constantes organizadas
+
+📝 Função main()
+
+✅ Validação de valores positivos
+
+🎯 Melhor formatação de saídas
+
+🔮 Possíveis Expansões Futuras
+🏭 Integração Industrial
+
+🔌 Conexão com sensores IoT
+
+📡 API REST para integração com outros sistemas
+
+💾 Banco de dados para persistência
+
+🤖 Inteligência Artificial
+
+📊 Análise preditiva de qualidade
+
+🎯 Machine Learning para previsão de defeitos
+
+🖥️ Interface Gráfica
+
+🌐 Dashboard web em tempo real
+
+📱 Aplicativo mobile para gestores
+
+📈 Gráficos interativos
+
+⚙️ Automação Avançada
+
+🏗️ Controle de múltiplas linhas
+
+📦 Integração com estoque
+
+🚚 Rastreamento até expedição
+
+👩‍💻 Autora
+
+Caroline Rodrigues
+Graduanda em Inteligência Artificial e Automação Digital
+UniFECAF + Rocketseat
+
+📚 Disciplina
+
+Algoritmos e Lógica de Programação
+
+📄 Licença
+
+Projeto desenvolvido para fins educacionais como parte do curso de Graduação Tecnológica em Inteligência Artificial e Automação Digital.
+
+🤝 Contribuições
+
+Sugestões e melhorias são bem-vindas!
+
+Faça um Fork do projeto
+
+Crie uma branch (git checkout -b feature/MinhaFeature)
+
+Commit suas mudanças (git commit -m 'Adiciona MinhaFeature')
+
+Push para a branch (git push origin feature/MinhaFeature)
+
+Abra um Pull Request
+
+📞 Contato
+
+Para dúvidas ou sugestões, entre em contato através do repositório GitHub.
+
+🏭 Protótipo de Automação Digital — Empresa Fictícia PeçaCerta
+"De manual para automático: assim transformamos a produção."
