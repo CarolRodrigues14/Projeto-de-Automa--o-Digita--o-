@@ -342,7 +342,7 @@ def main():
     """Função principal do programa."""
     limpa_tela()
     print(f"{AZUL}{'=' * 60}{RESET}")
-    print(f"{AZUL}{'BEM-VINDO AO SISTEMA PEÇACERTA':^60}{RESET}")
+    print(f"{AZUL}{'BEM-VINDO AO SISTEMA Da EMPRESA PEÇACERTA':^60}{RESET}")
     print(f"{AZUL}{'=' * 60}{RESET}")
     print(f"\n{CIANO}Sistema de Automação Digital para Controle de Qualidade{RESET}")
     print(f"{CIANO}Desenvolvido para otimizar inspeção e armazenamento{RESET}\n")
