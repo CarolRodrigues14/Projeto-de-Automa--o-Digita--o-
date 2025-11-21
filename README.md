@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+  ![Status](https://img.shields.io/badge/Status-Completo-success)
+
+
 # 🏭 Protótipo de Automação Digital — Empresa Fictícia *PeçaCerta*
 
 ## 📋 Sobre o Projeto
@@ -246,3 +250,11 @@ UniFECAF + Rocketseat
 📚 Disciplina
 
 Algoritmos e Lógica de Programação
+
+## 📚 Aprendizados
+  
+  Este projeto me permitiu desenvolver:
+  - Estruturação de código Python com boas práticas
+  - Uso de estruturas de dados complexas
+  - Lógica de programação aplicada a problemas reais
+  - Documentação técnica profissional
